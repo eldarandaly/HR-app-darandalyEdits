@@ -1,0 +1,158 @@
+./ProcessedFaces\Bary.4\img (1).png 339 55 585 373
+./ProcessedFaces\Bary.4\img (2).png 374 50 615 380
+./ProcessedFaces\Bary.4\img (8).png 348 60 589 378
+./ProcessedFaces\Bary.4\WhatsApp Image 2022-03-12 at 11.06.40 PM.png 263 340 905 1196
+./ProcessedFaces\Bary.4\WhatsApp Image 2022-03-12 at 11.06.43 PM.png 305 333 927 1141
+./ProcessedFaces\Bary.4\WhatsApp Image 2022-03-12 at 11.06.44 PM.png 336 309 878 1056
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.04 PM - Copy (2).png 218 321 703 952
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.04 PM - Copy (3).png 218 321 703 952
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.04 PM - Copy (4).png 218 321 703 952
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.04 PM - Copy (5).png 218 321 703 952
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.04 PM - Copy (6).png 218 321 703 952
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.04 PM - Copy.png 218 321 703 952
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.04 PM.png 218 321 703 952
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM (1) - Copy.png 344 287 808 930
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM (1).png 344 287 808 930
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM (2) - Copy.png 344 287 808 930
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM (3) - Copy.png 344 287 808 930
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM (4) - Copy.png 344 287 808 930
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM (5) - Copy.png 344 287 808 930
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM (6) - Copy.png 344 287 808 930
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM - Copy (2).png 106 283 525 893
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM - Copy (3).png 106 283 525 893
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM - Copy (4).png 106 283 525 893
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM - Copy (5).png 106 283 525 893
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM - Copy (6).png 106 283 525 893
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM - Copy.png 106 283 525 893
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.05 PM.png 106 283 525 893
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.06 PM - Copy - Copy (2).png 200 539 713 1113
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.06 PM - Copy - Copy (3).png 200 539 713 1113
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.06 PM - Copy - Copy (4).png 200 539 713 1113
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.06 PM - Copy - Copy (5).png 200 539 713 1113
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.06 PM - Copy - Copy (6).png 200 539 713 1113
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.06 PM - Copy - Copy.png 200 539 713 1113
+./ProcessedFaces\Dumdum.5\WhatsApp Image 2022-03-12 at 1.23.06 PM - Copy.png 200 539 713 1113
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.01.36 AM.png 76 150 602 874
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.01.40 AM.png 56 162 569 844
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.01.43 AM.png 59 159 536 823
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.01.50 AM (1).png 77 158 599 889
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.01.50 AM.png 22 156 565 891
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.01.56 AM.png 152 181 661 893
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.01.57 AM.png 211 172 673 877
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.01.59 AM.png 273 179 712 875
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.04 AM.png 185 177 659 887
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.11 AM.png 143 154 637 869
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.12 AM (1).png 20 158 560 879
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.12 AM.png 88 150 605 859
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.15 AM (1).png 50 204 536 852
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.15 AM.png 29 188 537 865
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.16 AM (1).png 9 179 475 856
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.16 AM.png 9 179 516 856
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.18 AM (1).png 8 190 517 851
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.19 AM (1).png 115 208 613 888
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.19 AM.png 64 191 593 888
+./ProcessedFaces\Roaa.13\WhatsApp Image 2022-04-05 at 2.02.20 AM.png 266 263 688 861
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-11 at 7.53.09 PM (1) - Copy.png 167 343 435 697
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-11 at 7.56.56 PM (2) - Copy.png 195 308 514 775
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-11 at 7.56.56 PM (3) - Copy.png 163 410 440 778
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-11 at 7.56.56 PM - Copy - Copy.png 268 341 575 796
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-11 at 7.57.04 PM - Copy - Copy (2).png 154 271 518 802
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.21 PM.png 71 111 475 688
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.22 PM.png 148 164 552 711
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.23 PM (1).png 126 205 531 697
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.23 PM (2).png 155 388 471 800
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.23 PM.png 135 303 508 788
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.24 PM (1).png 115 410 454 853
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.24 PM (2).png 4 423 333 865
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.24 PM (3).png 66 393 378 840
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.24 PM.png 212 398 549 863
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.25 PM (1).png 132 401 447 813
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.25 PM (2).png 156 373 438 740
+./ProcessedFaces\abbas.1\WhatsApp Image 2022-03-21 at 8.47.25 PM.png 189 393 527 832
+./ProcessedFaces\ahmed.3\img (1).png 354 695 804 1278
+./ProcessedFaces\ahmed.3\img (10).png 322 680 769 1280
+./ProcessedFaces\ahmed.3\img (11).png 348 707 796 1298
+./ProcessedFaces\ahmed.3\img (12).png 371 659 820 1263
+./ProcessedFaces\ahmed.3\img (2).png 350 683 784 1259
+./ProcessedFaces\ahmed.3\img (3).png 344 709 780 1295
+./ProcessedFaces\ahmed.3\img (4).png 345 688 791 1283
+./ProcessedFaces\ahmed.3\img (5).png 329 683 789 1273
+./ProcessedFaces\ahmed.3\img (6).png 438 676 879 1257
+./ProcessedFaces\ahmed.3\img (7).png 340 719 800 1308
+./ProcessedFaces\ahmed.3\img (8).png 383 665 815 1154
+./ProcessedFaces\ahmed.3\img (9).png 437 685 889 1255
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.11 AM.png 461 620 824 1094
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.12 AM.png 407 627 765 1086
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.13 AM.png 427 629 775 1099
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.14 AM.png 426 624 790 1105
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.17 AM (1).png 406 638 753 1097
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.17 AM (2).png 439 628 792 1094
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.17 AM (3).png 446 636 784 1051
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.17 AM (4).png 428 642 781 1077
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.17 AM.png 503 646 867 1103
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.18 AM (1).png 446 637 798 1114
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.18 AM (2).png 410 631 769 1097
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.18 AM (3).png 449 630 797 1102
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.18 AM.png 446 639 800 1109
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.19 AM (1).png 441 631 806 1105
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.19 AM (2).png 439 624 805 1109
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.19 AM (3).png 420 637 772 1103
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.19 AM (4).png 426 638 770 1098
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.19 AM.png 518 636 853 1081
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.20 AM (1).png 446 631 811 1108
+./ProcessedFaces\ahmed.3\WhatsApp Image 2022-04-05 at 7.47.20 AM.png 472 639 823 1120
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy - Copy (2).png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy - Copy (3).png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy - Copy (4).png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy - Copy (5).png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy - Copy (6).png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy - Copy (7).png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy - Copy (8).png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy - Copy.png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.53.54 PM - Copy.png 229 366 683 981
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy - Copy (2).png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy - Copy (3).png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy - Copy (4).png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy - Copy (5).png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy - Copy (6).png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy - Copy (7).png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy - Copy (8).png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy - Copy.png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.16 PM - Copy.png 128 354 520 875
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy - Copy (2).png 90 383 427 823
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy - Copy (3).png 90 383 427 823
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy - Copy (4).png 90 383 427 823
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy - Copy (5).png 90 383 427 823
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy - Copy (6).png 90 383 427 823
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy - Copy (7).png 90 383 427 823
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy - Copy (8).png 90 383 427 823
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy - Copy.png 90 383 427 823
+./ProcessedFaces\ibrhaim.7\WhatsApp Image 2022-03-11 at 7.55.17 PM - Copy.png 90 383 427 823
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-49 - Copy.png 202 267 711 967
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-49.png 202 267 711 967
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-51 - Copy.png 105 246 632 1002
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-51.png 105 246 632 1002
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-53 - Copy.png 243 227 785 966
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-53.png 243 227 785 966
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-54 - Copy.png 337 310 867 1069
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-54.png 337 310 867 1069
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-55 (2) - Copy.png 282 291 844 1003
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-55 (2).png 282 291 844 1003
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-55 - Copy.png 174 303 681 1035
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-55.png 174 303 681 1035
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-56 - Copy.png 182 292 710 982
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-56.png 182 292 710 982
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-57 (2) - Copy.png 217 286 691 860
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-57 (2).png 217 286 691 860
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-58 - Copy.png 281 255 855 1055
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-53-58.png 281 255 855 1055
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-17 (2) - Copy.png 105 246 632 1002
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-17 (2).png 105 246 632 1002
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-18 - Copy.png 0 249 534 997
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-18.png 0 249 534 997
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-21 - Copy.png 337 310 867 1069
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-21.png 337 310 867 1069
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-30 - Copy.png 217 286 691 860
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-30.png 217 286 691 860
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-33 (2) - Copy.png 148 294 685 1023
+./ProcessedFaces\ismail.15\photo_2022-04-02_04-54-33 (2).png 148 294 685 1023
