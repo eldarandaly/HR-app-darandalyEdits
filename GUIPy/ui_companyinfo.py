@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'companyinfofwqeEn.ui'
+## Form generated from reading UI file 'companyinfoJRvUDJ.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -13,11 +13,12 @@ from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 
 
+
 class Ui_Form(object):
     def setupUi(self, Form):
         if not Form.objectName():
             Form.setObjectName(u"Form")
-        Form.resize(900, 550)
+        Form.resize(988, 613)
         Form.setStyleSheet(u"")
         self.frame = QFrame(Form)
         self.frame.setObjectName(u"frame")
@@ -33,8 +34,8 @@ class Ui_Form(object):
         self.frame.setFrameShadow(QFrame.Raised)
         self.menu = QFrame(self.frame)
         self.menu.setObjectName(u"menu")
-        self.menu.setGeometry(QRect(10, 0, 171, 571))
-        self.menu.setMaximumSize(QSize(250, 571))
+        self.menu.setGeometry(QRect(0, 0, 191, 571))
+        self.menu.setMaximumSize(QSize(16543535, 16777215))
         self.menu.setFont(font)
         self.menu.setStyleSheet(u"font: 25 18pt \"Bahnschrift Light\";\n"
 "\n"
@@ -43,7 +44,7 @@ class Ui_Form(object):
         self.menu.setFrameShadow(QFrame.Raised)
         self.dep_btn = QPushButton(self.menu)
         self.dep_btn.setObjectName(u"dep_btn")
-        self.dep_btn.setGeometry(QRect(0, 110, 171, 51))
+        self.dep_btn.setGeometry(QRect(0, 110, 191, 51))
         self.dep_btn.setFont(font)
         self.dep_btn.setStyleSheet(u"\n"
 "QPushButton{\n"
@@ -99,7 +100,7 @@ class Ui_Form(object):
 "}")
         self.jd_btn = QPushButton(self.menu)
         self.jd_btn.setObjectName(u"jd_btn")
-        self.jd_btn.setGeometry(QRect(0, 180, 171, 51))
+        self.jd_btn.setGeometry(QRect(0, 180, 201, 51))
         self.jd_btn.setFont(font)
         self.jd_btn.setStyleSheet(u"\n"
 "QPushButton{\n"
@@ -155,7 +156,7 @@ class Ui_Form(object):
 "}")
         self.att_btn = QPushButton(self.menu)
         self.att_btn.setObjectName(u"att_btn")
-        self.att_btn.setGeometry(QRect(0, 250, 171, 51))
+        self.att_btn.setGeometry(QRect(0, 250, 191, 51))
         self.att_btn.setFont(font)
         self.att_btn.setStyleSheet(u"\n"
 "QPushButton{\n"
@@ -211,7 +212,7 @@ class Ui_Form(object):
 "}")
         self.gate_btn = QPushButton(self.menu)
         self.gate_btn.setObjectName(u"gate_btn")
-        self.gate_btn.setGeometry(QRect(0, 320, 171, 51))
+        self.gate_btn.setGeometry(QRect(0, 320, 191, 51))
         self.gate_btn.setFont(font)
         self.gate_btn.setStyleSheet(u"\n"
 "QPushButton{\n"
@@ -323,7 +324,7 @@ class Ui_Form(object):
 "}")
         self.access_btn_2 = QPushButton(self.menu)
         self.access_btn_2.setObjectName(u"access_btn_2")
-        self.access_btn_2.setGeometry(QRect(0, 390, 171, 51))
+        self.access_btn_2.setGeometry(QRect(0, 390, 191, 51))
         self.access_btn_2.setFont(font)
         self.access_btn_2.setStyleSheet(u"\n"
 "QPushButton{\n"
@@ -435,7 +436,7 @@ class Ui_Form(object):
 "}")
         self.pages = QStackedWidget(self.frame)
         self.pages.setObjectName(u"pages")
-        self.pages.setGeometry(QRect(180, -30, 731, 571))
+        self.pages.setGeometry(QRect(190, 0, 791, 571))
         self.pages.setFont(font)
         self.pages.setStyleSheet(u"font: 25 18pt \"Bahnschrift Light\";\n"
 "\n"
@@ -1289,7 +1290,7 @@ class Ui_Form(object):
         self.insert_gate = QPushButton(self.splitter_2)
         self.insert_gate.setObjectName(u"insert_gate")
         self.insert_gate.setStyleSheet(u"QPushButton{\n"
-"	font: 75 11pt \"MS Shell Dlg 2\";\n"
+"	font: 25 18pt \"Bahnschrift Light\";\n"
 "	border-style: solid;\n"
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
 "	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
@@ -1304,8 +1305,8 @@ class Ui_Form(object):
 "QPushButton:hover{\n"
 "	border-style: solid;\n"
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, st"
-                        "op:0 rgb(197, 197, 197), stop:1 rgb(227, 227, 227));\n"
+"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5,"
+                        " stop:0 rgb(197, 197, 197), stop:1 rgb(227, 227, 227));\n"
 "	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(197, 197, 197));\n"
 "	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));\n"
 "	border-width: 1px;\n"
@@ -1319,8 +1320,8 @@ class Ui_Form(object):
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
 "	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
 "	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 21"
-                        "5), stop:1 rgb(222, 222, 222));\n"
+"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215,"
+                        " 215), stop:1 rgb(222, 222, 222));\n"
 "	border-width: 1px;\n"
 "	border-radius: 5px;\n"
 "	color: rgb(0,0,0);\n"
@@ -1343,7 +1344,7 @@ class Ui_Form(object):
         self.save_gate = QPushButton(self.splitter_2)
         self.save_gate.setObjectName(u"save_gate")
         self.save_gate.setStyleSheet(u"QPushButton{\n"
-"	font: 75 11pt \"MS Shell Dlg 2\";\n"
+"	font: 25 18pt \"Bahnschrift Light\";\n"
 "	border-style: solid;\n"
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
 "	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
@@ -1358,8 +1359,8 @@ class Ui_Form(object):
 "QPushButton:hover{\n"
 "	border-style: solid;\n"
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, st"
-                        "op:0 rgb(197, 197, 197), stop:1 rgb(227, 227, 227));\n"
+"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5,"
+                        " stop:0 rgb(197, 197, 197), stop:1 rgb(227, 227, 227));\n"
 "	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(197, 197, 197));\n"
 "	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));\n"
 "	border-width: 1px;\n"
@@ -1373,8 +1374,8 @@ class Ui_Form(object):
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
 "	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
 "	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 21"
-                        "5), stop:1 rgb(222, 222, 222));\n"
+"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215,"
+                        " 215), stop:1 rgb(222, 222, 222));\n"
 "	border-width: 1px;\n"
 "	border-radius: 5px;\n"
 "	color: rgb(0,0,0);\n"

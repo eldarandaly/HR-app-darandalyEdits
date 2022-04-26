@@ -1,12 +1,13 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'welcomeucXTJV.ui'
+## Form generated from reading UI file 'welcomewqgTAg.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
+
 
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
@@ -17,11 +18,11 @@ class Ui_WelcomeWindow(object):
     def setupUi(self, WelcomeWindow):
         if not WelcomeWindow.objectName():
             WelcomeWindow.setObjectName(u"WelcomeWindow")
-        WelcomeWindow.resize(369, 509)
+        WelcomeWindow.resize(437, 517)
         WelcomeWindow.setStyleSheet(u"background:rgb(250, 249, 246)")
         self.login_btn = QPushButton(WelcomeWindow)
         self.login_btn.setObjectName(u"login_btn")
-        self.login_btn.setGeometry(QRect(90, 230, 171, 71))
+        self.login_btn.setGeometry(QRect(130, 300, 171, 71))
         self.login_btn.setStyleSheet(u"QPushButton{\n"
 "	font: 25 18pt \"Bahnschrift Light\";\n"
 "	border-style: solid;\n"
@@ -75,7 +76,7 @@ class Ui_WelcomeWindow(object):
 "}")
         self.label = QLabel(WelcomeWindow)
         self.label.setObjectName(u"label")
-        self.label.setGeometry(QRect(40, 110, 281, 71))
+        self.label.setGeometry(QRect(40, 140, 371, 71))
         self.label.setStyleSheet(u"font: 25 50pt \"Bahnschrift Light\";")
 
         self.retranslateUi(WelcomeWindow)

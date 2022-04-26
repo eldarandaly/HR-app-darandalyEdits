@@ -21,9 +21,10 @@ class Ui_loginWindow(object):
         loginWindow.setStyleSheet(u"font: 25 18pt \"Bahnschrift Light\";\n"
 "background:rgb(250, 249, 246)\n"
 "")
+        self.gridLayout_2 = QGridLayout(loginWindow)
+        self.gridLayout_2.setObjectName(u"gridLayout_2")
         self.groupBox = QGroupBox(loginWindow)
         self.groupBox.setObjectName(u"groupBox")
-        self.groupBox.setGeometry(QRect(100, 70, 271, 401))
         font = QFont()
         font.setFamily(u"Bahnschrift Light")
         font.setPointSize(20)
@@ -124,6 +125,9 @@ class Ui_loginWindow(object):
         self.pass_line.setEchoMode(QLineEdit.Password)
 
         self.gridLayout.addWidget(self.pass_line, 1, 0, 1, 1)
+
+
+        self.gridLayout_2.addWidget(self.groupBox, 0, 0, 1, 1)
 
         QWidget.setTabOrder(self.user_line, self.pass_line)
         QWidget.setTabOrder(self.pass_line, self.login_btn)

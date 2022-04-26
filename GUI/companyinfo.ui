@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>900</width>
-    <height>550</height>
+    <width>988</width>
+    <height>613</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -48,16 +48,16 @@
    <widget class="QFrame" name="menu">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>0</x>
       <y>0</y>
-      <width>171</width>
+      <width>191</width>
       <height>571</height>
      </rect>
     </property>
     <property name="maximumSize">
      <size>
-      <width>250</width>
-      <height>571</height>
+      <width>16543535</width>
+      <height>16777215</height>
      </size>
     </property>
     <property name="font">
@@ -85,7 +85,7 @@
       <rect>
        <x>0</x>
        <y>110</y>
-       <width>171</width>
+       <width>191</width>
        <height>51</height>
       </rect>
      </property>
@@ -159,7 +159,7 @@ QPushButton:disabled{
       <rect>
        <x>0</x>
        <y>180</y>
-       <width>171</width>
+       <width>201</width>
        <height>51</height>
       </rect>
      </property>
@@ -233,7 +233,7 @@ QPushButton:disabled{
       <rect>
        <x>0</x>
        <y>250</y>
-       <width>171</width>
+       <width>191</width>
        <height>51</height>
       </rect>
      </property>
@@ -307,7 +307,7 @@ QPushButton:disabled{
       <rect>
        <x>0</x>
        <y>320</y>
-       <width>171</width>
+       <width>191</width>
        <height>51</height>
       </rect>
      </property>
@@ -455,7 +455,7 @@ QPushButton:disabled{
       <rect>
        <x>0</x>
        <y>390</y>
-       <width>171</width>
+       <width>191</width>
        <height>51</height>
       </rect>
      </property>
@@ -602,9 +602,9 @@ QPushButton:disabled{
    <widget class="QStackedWidget" name="pages">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>-30</y>
-      <width>731</width>
+      <x>190</x>
+      <y>0</y>
+      <width>791</width>
       <height>571</height>
      </rect>
     </property>
@@ -1800,7 +1800,7 @@ background-color: rgb(255, 255, 255);
       <widget class="QPushButton" name="insert_gate">
        <property name="styleSheet">
         <string notr="true">QPushButton{
-	font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+	font: 25 18pt &quot;Bahnschrift Light&quot;;
 	border-style: solid;
 	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
 	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));
@@ -1856,7 +1856,7 @@ QPushButton:disabled{
       <widget class="QPushButton" name="save_gate">
        <property name="styleSheet">
         <string notr="true">QPushButton{
-	font: 75 11pt &quot;MS Shell Dlg 2&quot;;
+	font: 25 18pt &quot;Bahnschrift Light&quot;;
 	border-style: solid;
 	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
 	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));

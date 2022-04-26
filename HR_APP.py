@@ -3,6 +3,7 @@ from PyQt5.uic import loadUi ,loadUiType
 from PyQt5 import QtWidgets
 # from PyQt5.QtWidgets import QDialog, QApplication, QWidget
 # from PyQt5.QtGui import QPixmap
+
 import os
 from os import path
 from PyQt5.QtWidgets import *
@@ -19,6 +20,7 @@ import cv2
 from mtcnn.mtcnn import MTCNN
 import time
 import re
+
 '''
 from PySide2.QtCore import *
 from PySide2.QtGui import *
@@ -50,10 +52,13 @@ from GUIPy.ui_employee import Ui_employeeWindow
 from GUIPy.ui_login import Ui_loginWindow
 from GUIPy.ui_MainMenue import Ui_MainWindow
 from GUIPy.ui_newemployee import Ui_newemp1
-# from GUIPy.ui_newemployee2 import Ui_newemp2
+from GUIPy.ui_newemployee2 import Ui_newemp2
 from GUIPy.ui_newuser import Ui_newuser
-from GUIPy.ui_CompanyMenue import Ui_CompanyM
+from GUIPy.ui_CompanyMenue import Ui_CompanyMenuForm
 from GUIPy.ui_TrainModelScreen import Ui_ModelTraining
+from GUIPy.ui_AccessViewReport import Ui_AccessView
+from GUIPy.ui_AttendanceViewReport import Ui_AttendanceView
+from GUIPy.ui_ViewReport import Ui_ViewRep
 
 
 
@@ -69,18 +74,20 @@ class WelcomeScreen(QDialog):
         self.ui = Ui_WelcomeWindow()
         self.ui.setupUi(self)
         self.ui.login_btn.clicked.connect(self.gotologin)
-        self.setFixedWidth(550)
-        self.setFixedHeight(661)
-        self.setGeometry(50,50,371,661)
+        # self.setFixedWidth(550)
+        # self.setFixedHeight(661)
+        # self.setGeometry(50,50,371,661)
+        # widget.setGeometry(100,100,473,517)
+
     
     def gotologin(self):
 
         login = LoginScreen()
         widget.addWidget(login)
         widget.setCurrentIndex(widget.currentIndex()+1)
-        widget.setFixedWidth(548)
-        widget.setFixedHeight(660)
-        widget.setGeometry(50,50,1538,926)
+        # widget.setFixedWidth(548)
+        # widget.setFixedHeight(660)
+        # widget.setGeometry(50,50,1538,926)
         widget.setWindowTitle("Login Screen")
         
 ######################################################## StartUpWondow #############################################
@@ -92,10 +99,10 @@ class LoginScreen(QDialog):
         QWidget.__init__(self)
         self.ui = Ui_loginWindow()
         self.ui.setupUi(self)
-        self.setFixedWidth(548)
-        self.setFixedHeight(755)
-        self.setGeometry(50,50,548,755)
-
+        # self.setFixedWidth(548)
+        # self.setFixedHeight(755)
+        # self.setGeometry(50,50,548,755)
+        widget.setGeometry(100,100,503,535)
         self.ui.pass_line.setEchoMode(QtWidgets.QLineEdit.Password)
 
         self.ui.login_btn.clicked.connect(self.loginfunction)
@@ -146,9 +153,9 @@ class LoginScreen(QDialog):
         widget.addWidget(mainwint)
         widget.setCurrentIndex(widget.currentIndex()+1)
 
-        widget.setFixedWidth(861)
-        widget.setFixedHeight(605)
-        widget.setGeometry(50,50,861,605)
+        # widget.setFixedWidth(861)
+        # widget.setFixedHeight(605)
+        # widget.setGeometry(50,50,861,605)
         widget.setWindowTitle("Main Screen")
 
 ######################################################## EndCompanyInformationWindow #############################################   
@@ -178,9 +185,10 @@ class MainWin(QDialog):
         #self.logoutButton.clicked.connect(self.gotoWelcome)
         #self.Exit.clicked.connect(self.Exitsys)
 
-        self.setFixedWidth(1200)
-        self.setFixedHeight(1200)
-    
+        # widget.setFixedWidth(794)
+        # widget.setFixedHeight(650)    
+        widget.setGeometry(100,100,794,650)
+
 
     def gotoAddUser(self):  
         createProfile=AddNewUser(self.usertype)
@@ -198,7 +206,7 @@ class MainWin(QDialog):
         CompInfo = CompanyMeua(self.usertype)
         widget.addWidget(CompInfo)
         widget.setCurrentIndex(widget.currentIndex() + 1) 
-        widget.setWindowTitle("Company Information ")
+        widget.setWindowTitle("Company Information")
     
     def gotoTrain(self):
         TrainS = TrainScreen()
@@ -215,26 +223,24 @@ class EmployeeMenu(QDialog):
         self.ui=Ui_employeeWindow()
         self.ui.setupUi(self)
         self.usertype=userType
+        widget.setGeometry(100,100,723,548)
 
         if userType==2:
             self.ui.edit_btn.setEnabled(False)
         else:
             pass
         
+        self.ui.report_btn.clicked.connect(self.viewreportmenu)
         self.ui.add_btn.clicked.connect(self.gotonewemployee)
         self.ui.edit_btn.clicked.connect(self.gotoeditemployee)
         self.ui.check_btn.clicked.connect(self.gotoCheck)
-        self.ui.report_btn.clicked.connect(self.gotoReport)
         self.ui.back_btn.clicked.connect(self.gotomainmenu)
         
-        # self.userType.connect(self.getuserType)
-
-    # def getuserType(self,userType):
-    #     if userType==2:
-    #         self.ui.edit_btn.setEnabled(False)
-    #         self.type=userType
-    #     else:
-    #         pass
+    def viewreportmenu(self):
+        Newviewreport = viewreportmenu(self.usertype)
+        widget.addWidget(Newviewreport)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+        widget.setWindowTitle("Report Menu")
 
     def gotonewemployee(self):
         NewEmpScreen = NewEmployee(self.usertype)
@@ -246,9 +252,9 @@ class EmployeeMenu(QDialog):
         mainwint=MainWin(self.usertype)
         widget.addWidget(mainwint)
         widget.setCurrentIndex(widget.currentIndex()+1)
-        widget.setFixedWidth(861)
-        widget.setFixedHeight(605)
-        widget.setGeometry(50,50,861,605)
+        # widget.setFixedWidth(861)
+        # widget.setFixedHeight(605)
+        # widget.setGeometry(50,50,861,605)
         widget.setWindowTitle("Main Screen")
    
     def gotoeditemployee(self):
@@ -260,20 +266,19 @@ class EmployeeMenu(QDialog):
     def gotoCheck(self):
         print("will be added soon ")
     
-    def gotoReport(self):
-        print("will be added soon ")
 
 
 ###########################################################################################
 class CompanyMeua(QDialog):
     def __init__(self,userType):
         QWidget.__init__(self)
-        self.companyUI=Ui_CompanyM()
+        self.companyUI=Ui_CompanyMenuForm()
         self.companyUI.setupUi(self)
         self.usertype=userType
         self.companyUI.addCompany_btn.clicked.connect(self.AddCompanyInfo)
         self.companyUI.edit_btn.clicked.connect(self.EditCompanyInfo)
         self.companyUI.back_btn.clicked.connect(self.goBack)
+        widget.setGeometry(100,100,539,495)      
 
         if userType==2:
             self.companyUI.edit_btn.setEnabled(False)
@@ -309,6 +314,8 @@ class NewEmployee(QDialog):
         self.FirstUi=Ui_newemp1()
         self.FirstUi.setupUi(self)
         self.FirstUi.stackedWidget.setCurrentWidget(self.FirstUi.BasicInfoPage)
+        widget.setGeometry(100,100,1359,1005)
+
         self.getCompayinfo()  
         self.cleanImage()
         self.removeButtons()
@@ -319,8 +326,8 @@ class NewEmployee(QDialog):
         self.capture_Emp_ID=''
         self.emailregx=r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b'
         
-        widget.setFixedWidth(960)
-        widget.setFixedHeight(830)
+        # widget.setFixedWidth(960)
+        # widget.setFixedHeight(830)
 
         self.phone=self.FirstUi.phone_line_3.setValidator(QIntValidator())
         self.phone=self.FirstUi.phone_line_3.text()
@@ -455,12 +462,16 @@ class NewEmployee(QDialog):
         cursor.execute('SELECT Category FROM AccessScheme;')
         accesSchem=cursor.fetchall()
         accesSchem1=[r[0] for r in accesSchem]
-
+       
+        cursor.execute('SELECT Gate_Name FROM GatesTable')
+        Gates=cursor.fetchall()
+        Gates1=[r[0] for r in Gates]
 
         deptlen=len(dept_names1)
         joblen=len(JobTitles1)
         attendanceSchLen=len(attendanceSchem1)
         accesSchemLen=len(accesSchem1)
+        gateslen=len(Gates1)
 
         if dept_names1 == []:
             print("you cant add New Employee you must First ADD Company Dept's")
@@ -477,7 +488,7 @@ class NewEmployee(QDialog):
         if  JobTitles == []:
             print("you cant add New Employee you must First ADD Company Job Titles's")
            
-            self.FirstUi.save_btn_3.setEnabled(False)     
+            # self.FirstUi.save_btn_3.setEnabled(False)     
         else:
             count=0
             self.FirstUi.job_drop_3.addItem("")
@@ -504,6 +515,16 @@ class NewEmployee(QDialog):
             for i in range (accesSchemLen):
                 self.FirstUi.acc_drop_3.addItem(accesSchem1[count])
                 count+=1  
+        
+        if Gates1 ==[]:
+            print("you cant add New Employee you must First ADD Number Of Gates")  
+                  
+        else:
+            count=0 
+            # self.FirstUi.gateslist.addItem("")
+            for i in range (gateslen):
+                self.FirstUi.gateslist.addItem(Gates1[count])
+                count+=1 
 
     def CheckInputs(self):
        
@@ -538,6 +559,14 @@ class NewEmployee(QDialog):
         self.phone=self.FirstUi.phone_line_3.text()
         self.email=self.FirstUi.email_line_3.text()
         self.DOB=self.FirstUi.date_3.date().toPyDate()
+        self.gates=self.FirstUi.gateslist.selectedItems()
+        
+        selectedGates=[]
+        for getSelectedGates in list(self.gates):
+            selectedGates.append(str(getSelectedGates.text()))
+
+        
+        self.FirstUi.save_btn.setVisible(True)
 
         
 
@@ -575,9 +604,19 @@ class NewEmployee(QDialog):
         AccessCat_query_result  = cursor.fetchone()
         #AccessCat_query_result_str=[r[0] for r in AccessCat_query_result]
 
-        GateID_query = 'SELECT GateID FROM AccessScheme WHERE Category =\''+self.accessCat+"\'"
-        cursor.execute(GateID_query)
-        GateID_query_result  = cursor.fetchone()
+        # GateID_query = 'SELECT GateID FROM GatesTable WHERE Gate_Name =\''+self.gates+"\'"
+        # cursor.execute(GateID_query)
+        # GateID_query_result  = cursor.fetchall()
+        gateResult=[]
+        count=0
+        for i in selectedGates:
+          
+            GateID_query = 'SELECT Gate_ID FROM GatesTable WHERE Gate_Name =\''+i+"\'"
+            cursor.execute(GateID_query)
+            GateID_query_result  = cursor.fetchone()
+            gateResult.append(GateID_query_result[0])
+            count+=1
+
 
 
         if self.imgpath=="":
@@ -603,9 +642,10 @@ class NewEmployee(QDialog):
                     printIDint=int(row[0])
                     #printIDint+=1
                     printIDstr=str(printIDint)
-                    self.capture_Emp_ID=printIDstr  
-                    Arr=[self.capture_Emp_ID,GateID_query_result[0],AccessCat_query_result[0],self.accessCat]
-                    cursor.execute("INSERT INTO EmployeeAccess(Emp_ID,Gate_ID,AcessSchemeID,Cat) VALUES (?,?,?,?);",Arr)
+                    self.capture_Emp_ID=printIDstr
+                    for insertGates in gateResult:
+                        Arr=[self.capture_Emp_ID,insertGates,AccessCat_query_result[0],self.accessCat]
+                        cursor.execute("INSERT INTO EmployeeAccess(Emp_ID,Gate_ID,AcessSchemeID,Cat) VALUES (?,?,?,?);",Arr)
                     QMessageBox.about(self, "alert", "Employee Added its ID"+self.capture_Emp_ID)
                     # NewEmployee.genID(self)
                     self.handel_Lines()
@@ -618,8 +658,7 @@ class NewEmployee(QDialog):
                 QMessageBox.about(self, "alert", "please Fill All the Missing Parts ")
 
                 conn.commit()
-                conn.close()
-    
+                conn.close()    
     def CaputerEmployeeDataset(self):
         Detector=MTCNN()
         self.genID()
@@ -676,6 +715,8 @@ class EditEmployee(QDialog): # ----need to add function delete
         self.ui=Ui_newemp1()
         self.ui.setupUi(self)
         self.usertype=userType
+        widget.setGeometry(100,100,1359,1005)
+
         self.ui.search_btn.clicked.connect(self.SearchEmpWithID)
 
         self.ui.Back2basic.clicked.connect(self.backToBasic)
@@ -689,8 +730,8 @@ class EditEmployee(QDialog): # ----need to add function delete
 
        
         self.getCompayinfo()
-        widget.setFixedWidth(960)
-        widget.setFixedHeight(830)
+        # widget.setFixedWidth(960)
+        # widget.setFixedHeight(830)
 
     
     def next2Empinfo(self):
@@ -722,12 +763,18 @@ class EditEmployee(QDialog): # ----need to add function delete
         cursor.execute('SELECT Category FROM AccessScheme;')
         accesSchem=cursor.fetchall()
         accesSchem1=[r[0] for r in accesSchem]
+          
+        cursor.execute('SELECT Gate_Name FROM GatesTable')
+        Gates=cursor.fetchall()
+        Gates1=[r[0] for r in Gates]
 
 
         deptlen=len(dept_names1)
         joblen=len(JobTitles1)
         attendanceSchLen=len(attendanceSchem1)
         accesSchemLen=len(accesSchem1)
+        gateslen=len(Gates1)
+
 
         if dept_names1 == []:
             print("you cant add New Employee you must First ADD Company Dept's")
@@ -768,6 +815,17 @@ class EditEmployee(QDialog): # ----need to add function delete
             for i in range (accesSchemLen):
                 self.ui.acc_drop_3.addItem(accesSchem1[count])
                 count+=1  
+
+        if Gates1 ==[]:
+            print("you cant add New Employee you must First ADD Number Of Gates")  
+                  
+        else:
+            count=0 
+            # self.ui.gateslist.addItem("")
+            for i in range (gateslen):
+                self.ui.gateslist.addItem(Gates1[count])
+                self.getLISTit.append(Gates[count])
+                count+=1
    
     def handel_Lines(self):
         self.ui.first_line_3.clear()
@@ -818,6 +876,19 @@ class EditEmployee(QDialog): # ----need to add function delete
                     empPhone=row[15]
                     self.getEmpPhoto(self.empid) 
 
+                cursor.execute('SELECT * FROM EmployeeAccess WHERE Emp_ID = ?;',[self.empid])
+                Gresult=cursor.fetchall()
+                glist=[]
+                for r in Gresult:
+                    gate_ID=r[1]
+                    glist.append(gate_ID)
+                
+                
+                for i in self.getLISTit:
+                    # cursor.execute('SELECT Gate_Name FROM GatesTable WHERE Gate_ID = ?;',[i])
+                    # Gresult=cursor.fetchone()
+                    # gnames.append(str(Gresult[0]))
+                    print(i)
 
                 dep_query = 'SELECT Dept_Name FROM DepartmentsTable WHERE Dept_ID =\''+str(empDeptID)+"\'"
                 cursor.execute(dep_query)
@@ -975,7 +1046,8 @@ class AddNewUser(QDialog):
         self.ui.confirmpass_line.setEchoMode(QtWidgets.QLineEdit.Password)
         self.ui.cancel_btn.clicked.connect(self.goBack)
         self.ui.save_btn.clicked.connect(self.save)
-        
+        widget.setGeometry(100,100,700,600)
+
         
     def save(self):
         EmpId=self.ui.id_line.text()
@@ -1034,6 +1106,8 @@ class CompanyInfo(QWidget):
         QWidget.__init__(self)
         self.ui = Ui_Form()
         self.ui.setupUi(self)
+        widget.setGeometry(100,100,988,613)
+
         self.usertype=userType
         self.onlyInt = QIntValidator()
         self.ui.depid_line.setValidator(QIntValidator())
@@ -1195,6 +1269,7 @@ class editcompany(QWidget):
         QWidget.__init__(self)
         self.ui = Ui_Form()
         self.ui.setupUi(self)
+        widget.setGeometry(100,100,988,613)
         self.handelButton()
         self.usertype=userType
 
@@ -1210,14 +1285,15 @@ class editcompany(QWidget):
         self.ReadOnly()
         self.RemoveInsert()
         
+
     
         
 
         self.ui.back_btn.clicked.connect(self.goback)
 
 
-        widget.setFixedHeight(554)
-        widget.setFixedWidth(904)
+        # widget.setFixedHeight(554)
+        # widget.setFixedWidth(904)
         ## PAGES
         ########################################################################
         self.ui.pages.setCurrentWidget(self.ui.page0)
@@ -1246,6 +1322,7 @@ class editcompany(QWidget):
         self.ui.save_gate.clicked.connect(self.editgates)
         self.ui.search_access.clicked.connect(self.searchAccess)
         self.ui.save_access.clicked.connect(self.editaccess)
+
      def goback(self):
         compInfo = CompanyMeua(self.usertype)
         widget.addWidget(compInfo)
@@ -1463,8 +1540,8 @@ class TrainScreen(QWidget):
     def __init__(self):
         QWidget.__init__(self)
         self.ui = Ui_ModelTraining()
-        
         self.ui.setupUi(self)
+        widget.setGeometry(100,100,679,423)
         self.ui.pushButton.clicked.connect(self.StartTrain)
         self.ui.progressBar.setRange(0, 500)
         self.ui.progressBar.setValue(0)
@@ -1501,13 +1578,172 @@ class TrainScreen(QWidget):
         
         self.LoadBar(False)    
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = WelcomeScreen()
-    widget = QtWidgets.QStackedWidget()
-    widget.addWidget(window)
-    widget.show()
-    sys.exit(app.exec_())
+class viewreportmenu(QWidget):
+        def __init__(self,usertype):
+            QWidget.__init__(self)
+            self.ui = Ui_ViewRep()
+            self.ui.setupUi(self)
+            self.userType=usertype
+            widget.setGeometry(100,100,575,539)
+            # self.ui.attendanceviewreport_btn.clicked.connect(self.gotoattendance)
+            # self.ui.accessviewreport_btn.clicked.connect(self.gotoaccess)
+            self.ui.backreport_btn.clicked.connect(self.goback)
+            # self.ui.customreport_btn.clicked.connect(self.gotochoice)
+            self.ui.attendanceviewreport_btn.clicked.connect(self.searchatt) 
+            self.ui.accessviewreport_btn.clicked.connect(self.searchacc)
+
+        
+
+        
+        def gotoattendance(self):
+            Newviewatt= viewattendance()
+            widget.addWidget(Newviewatt)
+            widget.setCurrentIndex(widget.currentIndex()+1)
+            widget.setWindowTitle("View Attendance Report")
+
+        # def gotochoice(self):
+        #     # self.ui.customreport_btn.setVisible(False)
+        #     self.ui.attendanceviewreport_btn.clicked.connect(self.searchatt) 
+        #     self.ui.accessviewreport_btn.clicked.connect(self.searchacc)
+
+
+
+        def gotoaccess(self):
+            Newviewacc= viewaccess()
+            widget.addWidget(Newviewacc)
+            widget.setCurrentIndex(widget.currentIndex()+1)
+            widget.setWindowTitle("View Access Report")
+
+        def goback(self):
+            Newmenu = EmployeeMenu(self.userType)
+            widget.addWidget(Newmenu)
+            widget.setCurrentIndex(widget.currentIndex() + 1)
+            widget.setWindowTitle(" View Report Menu")  
+        def searchatt(self):
+            Newatt = searchattreport()
+            widget.addWidget(Newatt)
+            widget.setCurrentIndex(widget.currentIndex() + 1)
+        def searchacc(self):
+            Newacc = searchaccreport()
+            widget.addWidget(Newacc)
+            widget.setCurrentIndex(widget.currentIndex() + 1)
+
+class viewattendance(QWidget):
+
+    def __init__(self):
+        QWidget.__init__(self)
+        self.ui = Ui_AttendanceView()
+        self.ui.setupUi(self)
+        self.ui.loadData()
+        widget.setGeometry(100,100,783,560)
+        self.ui.backattrep_btn.clicked.connect(self.goback)
+        self.ui.lineEdit_attrep.setVisible(False)
+        self.ui.searchattrep.setVisible(False)
+        self.ui.label_2.setVisible(False)
+    def goback(self):
+        Newviewreport = viewreportmenu()
+        widget.addWidget(Newviewreport)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+        widget.setWindowTitle(" View Report Menu")  
+    def saveexcelatt(self):
+        conn = sqlite3.connect('./DataBaseTable.db', isolation_level=None,
+                       detect_types=sqlite3.PARSE_COLNAMES)
+        db_df = pd.read_sql_query("SELECT * FROM AttendanceSheet", conn)
+        db_df.to_csv('database.csv', index=False)
+
+        QMessageBox.about(self,'Notification', 'File saved to excel successfully ')
+        
+class viewaccess(QWidget):
+    def __init__(self):
+        QWidget.__init__(self)
+        self.ui = Ui_AccessView()
+        self.ui.setupUi(self)
+        self.ui.loadData()
+        widget.setGeometry(100,100,824,565)
+        self.ui.backaccrep_btn.clicked.connect(self.goback)
+        self.ui.pushButton.clicked.connect(self.saveexcelacc)
+        self.ui.lineEdit_accrep.setVisible(False)
+        self.ui.searchaccrep.setVisible(False)
+        self.ui.label_2.setVisible(False)
+
+    def goback(self):
+        Newviewreport = viewreportmenu()
+        widget.addWidget(Newviewreport)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+        widget.setWindowTitle(" View Report Menu")  
+
+    def saveexcelacc(self):
+        conn = sqlite3.connect('./DataBaseTable.db', isolation_level=None,
+                       detect_types=sqlite3.PARSE_COLNAMES)
+        db_df = pd.read_sql_query("SELECT * FROM EmployeeAccess", conn)
+        db_df.to_csv('database.csv', index=False)
+
+        QMessageBox.about(self,'Notification', 'File saved to excel successfully ')
+        conn.close()
+    
+class searchattreport(QWidget):
+    def __init__(self):
+        QWidget.__init__(self)
+        self.ui = Ui_AttendanceView()
+        self.ui.setupUi(self)
+        widget.setGeometry(100,100,783,560)
+        self.ui.searchattrep.clicked.connect(self.search)
+        self.ui.backattrep_btn.clicked.connect(self.goback)
+        self.ui.pushButton.setVisible(False)
+    def search(self):
+        conn = sqlite3.connect("./DataBaseTable.db")
+        conn.text_factory=str
+        cursor = conn.cursor()
+        self.search=self.ui.lineEdit_attrep.text()
+        cursor.execute('SELECT * FROM AttendanceSheet WHERE Emp_ID=?', (self.search,))
+        result=cursor.fetchall()
+        self.ui.tableWidget.setRowCount(0)
+        for row_number, row_data in enumerate(result):
+            self.ui.tableWidget.insertRow(row_number)
+            for colum_number, data in enumerate(row_data):
+                self.ui.tableWidget.setItem(row_number, colum_number, QTableWidgetItem(str(data)))
+    def goback(self):
+        Newviewreport = viewreportmenu()
+        widget.addWidget(Newviewreport)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+        
+class searchaccreport(QWidget):
+    def __init__(self):
+        QWidget.__init__(self)
+        self.ui = Ui_AccessView()
+        self.ui.setupUi(self)
+        widget.setGeometry(100,100,824,565)
+        self.ui.searchaccrep.clicked.connect(self.search)
+        self.ui.backaccrep_btn.clicked.connect(self.goback)
+        # self.ui.pushButton.setVisible(False)
+    def search(self):
+        conn = sqlite3.connect("./DataBaseTable.db")
+        conn.text_factory=str
+        cursor = conn.cursor()
+        self.search=self.ui.lineEdit_accrep.text()
+        cursor.execute('SELECT * FROM EmployeeAccess WHERE Emp_ID=?', (self.search,))
+        result=cursor.fetchall()
+        self.ui.tableWidget.setRowCount(0)
+        for row_number, row_data in enumerate(result):
+            self.ui.tableWidget.insertRow(row_number)
+            for colum_number, data in enumerate(row_data):
+                self.ui.tableWidget.setItem(row_number, colum_number, QTableWidgetItem(str(data)))
+    def goback(self):
+        Newviewreport = viewreportmenu()
+        widget.addWidget(Newviewreport)
+        widget.setCurrentIndex(widget.currentIndex() + 1)
+
+
+
+
+# if __name__ == "__main__":
+app = QApplication(sys.argv)
+window = WelcomeScreen()
+widget = QtWidgets.QStackedWidget()
+widget.addWidget(window)
+widget.setGeometry(100,100,473,517)
+widget.show()
+sys.exit(app.exec_())
         
 
 

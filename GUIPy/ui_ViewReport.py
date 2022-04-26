@@ -1,30 +1,38 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'MainMenue.ui'
+## Form generated from reading UI file 'ViewReportabnzhi.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-from PySide2.QtCore import *
-from PySide2.QtGui import *
-from PySide2.QtWidgets import *
+from PyQt5.QtCore import *
+from PyQt5.QtGui import *
+from PyQt5.QtWidgets import *
 
-import img_rc
 
-class Ui_MainWindow(object):
-    def setupUi(self, MainWindow):
-        if not MainWindow.objectName():
-            MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(794, 650)
-        MainWindow.setStyleSheet(u"background:rgb(250, 249, 246)\n"
-"")
-        self.employee_btn = QPushButton(MainWindow)
-        self.employee_btn.setObjectName(u"employee_btn")
-        self.employee_btn.setGeometry(QRect(9, 194, 150, 80))
-        self.employee_btn.setStyleSheet(u"QPushButton{\n"
+class Ui_ViewRep(object):
+    def setupUi(self, Form):
+        if not Form.objectName():
+            Form.setObjectName(u"Form")
+        Form.resize(575, 539)
+        font = QFont()
+        font.setPointSize(12)
+        Form.setFont(font)
+        Form.setStyleSheet(u"background:rgb(250, 249, 246)")
+        self.attendanceviewreport_btn = QPushButton(Form)
+        self.attendanceviewreport_btn.setObjectName(u"attendanceviewreport_btn")
+        self.attendanceviewreport_btn.setGeometry(QRect(10, 220, 161, 71))
+        font1 = QFont()
+        font1.setFamily(u"Bahnschrift Light")
+        font1.setPointSize(18)
+        font1.setBold(False)
+        font1.setItalic(False)
+        font1.setWeight(3)
+        self.attendanceviewreport_btn.setFont(font1)
+        self.attendanceviewreport_btn.setStyleSheet(u"QPushButton{\n"
 "	font: 25 18pt \"Bahnschrift Light\";\n"
 "	border-style: solid;\n"
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
@@ -75,10 +83,10 @@ class Ui_MainWindow(object):
 "	padding: 2px;\n"
 "	background-color: rgb(142,142,142);\n"
 "}")
-        self.comp_btn = QPushButton(MainWindow)
-        self.comp_btn.setObjectName(u"comp_btn")
-        self.comp_btn.setGeometry(QRect(270, 194, 150, 80))
-        self.comp_btn.setStyleSheet(u"QPushButton{\n"
+        self.customreport_btn = QPushButton(Form)
+        self.customreport_btn.setObjectName(u"customreport_btn")
+        self.customreport_btn.setGeometry(QRect(390, 220, 161, 71))
+        self.customreport_btn.setStyleSheet(u"QPushButton{\n"
 "	font: 25 18pt \"Bahnschrift Light\";\n"
 "	border-style: solid;\n"
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
@@ -129,10 +137,10 @@ class Ui_MainWindow(object):
 "	padding: 2px;\n"
 "	background-color: rgb(142,142,142);\n"
 "}")
-        self.nuser_btn = QPushButton(MainWindow)
-        self.nuser_btn.setObjectName(u"nuser_btn")
-        self.nuser_btn.setGeometry(QRect(530, 194, 150, 80))
-        self.nuser_btn.setStyleSheet(u"QPushButton{\n"
+        self.accessviewreport_btn = QPushButton(Form)
+        self.accessviewreport_btn.setObjectName(u"accessviewreport_btn")
+        self.accessviewreport_btn.setGeometry(QRect(200, 220, 161, 71))
+        self.accessviewreport_btn.setStyleSheet(u"QPushButton{\n"
 "	font: 25 18pt \"Bahnschrift Light\";\n"
 "	border-style: solid;\n"
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
@@ -183,119 +191,11 @@ class Ui_MainWindow(object):
 "	padding: 2px;\n"
 "	background-color: rgb(142,142,142);\n"
 "}")
-        self.train_btn = QPushButton(MainWindow)
-        self.train_btn.setObjectName(u"train_btn")
-        self.train_btn.setGeometry(QRect(9, 420, 150, 80))
-        self.train_btn.setStyleSheet(u"QPushButton{\n"
-"	font: 25 18pt \"Bahnschrift Light\";\n"
-"	border-style: solid;\n"
-"	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
-"	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-width: 1px;\n"
-"	border-radius: 5px;\n"
-"	color: rgb(0,0,0);\n"
-"	padding: 2px;\n"
-"	background-color: rgb(255,255,255);\n"
-"}\n"
-"QPushButton:hover{\n"
-"	border-style: solid;\n"
-"	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5,"
-                        " stop:0 rgb(197, 197, 197), stop:1 rgb(227, 227, 227));\n"
-"	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(197, 197, 197));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));\n"
-"	border-width: 1px;\n"
-"	border-radius: 5px;\n"
-"	color: rgb(0,0,0);\n"
-"	padding: 2px;\n"
-"	background-color: rgb(255,255,255);\n"
-"}\n"
-"QPushButton:pressed{\n"
-"	border-style: solid;\n"
-"	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
-"	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215,"
-                        " 215), stop:1 rgb(222, 222, 222));\n"
-"	border-width: 1px;\n"
-"	border-radius: 5px;\n"
-"	color: rgb(0,0,0);\n"
-"	padding: 2px;\n"
-"	background-color: rgb(142,142,142);\n"
-"}\n"
-"QPushButton:disabled{\n"
-"	border-style: solid;\n"
-"	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
-"	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-width: 1px;\n"
-"	border-radius: 5px;\n"
-"	color: #808086;\n"
-"	padding: 2px;\n"
-"	background-color: rgb(142,142,142);\n"
-"}")
-        self.att_btn = QPushButton(MainWindow)
-        self.att_btn.setObjectName(u"att_btn")
-        self.att_btn.setGeometry(QRect(270, 420, 150, 80))
-        self.att_btn.setStyleSheet(u"QPushButton{\n"
-"	font: 25 18pt \"Bahnschrift Light\";\n"
-"	border-style: solid;\n"
-"	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
-"	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-width: 1px;\n"
-"	border-radius: 5px;\n"
-"	color: rgb(0,0,0);\n"
-"	padding: 2px;\n"
-"	background-color: rgb(255,255,255);\n"
-"}\n"
-"QPushButton:hover{\n"
-"	border-style: solid;\n"
-"	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5,"
-                        " stop:0 rgb(197, 197, 197), stop:1 rgb(227, 227, 227));\n"
-"	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(197, 197, 197));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(195, 195, 195), stop:1 rgb(222, 222, 222));\n"
-"	border-width: 1px;\n"
-"	border-radius: 5px;\n"
-"	color: rgb(0,0,0);\n"
-"	padding: 2px;\n"
-"	background-color: rgb(255,255,255);\n"
-"}\n"
-"QPushButton:pressed{\n"
-"	border-style: solid;\n"
-"	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
-"	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215,"
-                        " 215), stop:1 rgb(222, 222, 222));\n"
-"	border-width: 1px;\n"
-"	border-radius: 5px;\n"
-"	color: rgb(0,0,0);\n"
-"	padding: 2px;\n"
-"	background-color: rgb(142,142,142);\n"
-"}\n"
-"QPushButton:disabled{\n"
-"	border-style: solid;\n"
-"	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
-"	border-left-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(227, 227, 227), stop:1 rgb(217, 217, 217));\n"
-"	border-bottom-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
-"	border-width: 1px;\n"
-"	border-radius: 5px;\n"
-"	color: #808086;\n"
-"	padding: 2px;\n"
-"	background-color: rgb(142,142,142);\n"
-"}")
-        self.pushButton = QPushButton(MainWindow)
-        self.pushButton.setObjectName(u"pushButton")
-        self.pushButton.setGeometry(QRect(530, 420, 150, 80))
-        self.pushButton.setStyleSheet(u"QPushButton{\n"
-"	font: 25 18pt \"Bahnschrift Light\";\n"
+        self.backreport_btn = QPushButton(Form)
+        self.backreport_btn.setObjectName(u"backreport_btn")
+        self.backreport_btn.setGeometry(QRect(220, 400, 101, 31))
+        self.backreport_btn.setStyleSheet(u"QPushButton{\n"
+"	font: 16 18pt \"Bahnschrift Light\";\n"
 "	border-style: solid;\n"
 "	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));\n"
 "	border-right-color: qlineargradient(spread:pad, x1:0, y1:0.5, x2:1, y2:0.5, stop:0 rgb(217, 217, 217), stop:1 rgb(227, 227, 227));\n"
@@ -346,18 +246,16 @@ class Ui_MainWindow(object):
 "	background-color: rgb(142,142,142);\n"
 "}")
 
-        self.retranslateUi(MainWindow)
+        self.retranslateUi(Form)
 
-        QMetaObject.connectSlotsByName(MainWindow)
+        QMetaObject.connectSlotsByName(Form)
     # setupUi
 
-    def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(QCoreApplication.translate("MainWindow", u"Form", None))
-        self.employee_btn.setText(QCoreApplication.translate("MainWindow", u"Employee", None))
-        self.comp_btn.setText(QCoreApplication.translate("MainWindow", u"Company Info", None))
-        self.nuser_btn.setText(QCoreApplication.translate("MainWindow", u"New User", None))
-        self.train_btn.setText(QCoreApplication.translate("MainWindow", u"Train Model", None))
-        self.att_btn.setText(QCoreApplication.translate("MainWindow", u"Attendnace ", None))
-        self.pushButton.setText(QCoreApplication.translate("MainWindow", u"Logout", None))
+    def retranslateUi(self, Form):
+        Form.setWindowTitle(QCoreApplication.translate("Form", u"Form", None))
+        self.attendanceviewreport_btn.setText(QCoreApplication.translate("Form", u"Attendance", None))
+        self.customreport_btn.setText(QCoreApplication.translate("Form", u"Custom", None))
+        self.accessviewreport_btn.setText(QCoreApplication.translate("Form", u"Access", None))
+        self.backreport_btn.setText(QCoreApplication.translate("Form", u"Back", None))
     # retranslateUi
 

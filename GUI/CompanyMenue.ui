@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>CompanyM</class>
- <widget class="QWidget" name="CompanyM">
+ <class>CompanyMenuForm</class>
+ <widget class="QWidget" name="CompanyMenuForm">
   <property name="geometry">
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>513</width>
-    <height>429</height>
+    <width>539</width>
+    <height>495</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,17 +17,11 @@
    <string notr="true">background:rgb(250, 249, 246)
 </string>
   </property>
-  <widget class="QPushButton" name="addCompany_btn">
-   <property name="geometry">
-    <rect>
-     <x>20</x>
-     <y>140</y>
-     <width>211</width>
-     <height>121</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton{
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QPushButton" name="back_btn">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
 	font: 25 18pt &quot;Bahnschrift Light&quot;;
 	border-style: solid;
 	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
@@ -76,22 +70,16 @@ QPushButton:disabled{
 	padding: 2px;
 	background-color: rgb(142,142,142);
 }</string>
-   </property>
-   <property name="text">
-    <string>Add Company Info</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="edit_btn">
-   <property name="geometry">
-    <rect>
-     <x>280</x>
-     <y>140</y>
-     <width>211</width>
-     <height>121</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton{
+     </property>
+     <property name="text">
+      <string>Back</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="addCompany_btn">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
 	font: 25 18pt &quot;Bahnschrift Light&quot;;
 	border-style: solid;
 	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
@@ -140,22 +128,16 @@ QPushButton:disabled{
 	padding: 2px;
 	background-color: rgb(142,142,142);
 }</string>
-   </property>
-   <property name="text">
-    <string>Edit Company Info</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="back_btn">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>27</y>
-     <width>101</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton{
+     </property>
+     <property name="text">
+      <string>Add Company Info</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="edit_btn">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
 	font: 25 18pt &quot;Bahnschrift Light&quot;;
 	border-style: solid;
 	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
@@ -204,11 +186,13 @@ QPushButton:disabled{
 	padding: 2px;
 	background-color: rgb(142,142,142);
 }</string>
-   </property>
-   <property name="text">
-    <string>Back</string>
-   </property>
-  </widget>
+     </property>
+     <property name="text">
+      <string>Edit Company Info</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>

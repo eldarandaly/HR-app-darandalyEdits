@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>369</width>
-    <height>509</height>
+    <width>437</width>
+    <height>517</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -16,17 +16,21 @@
   <property name="styleSheet">
    <string notr="true">background:rgb(250, 249, 246)</string>
   </property>
-  <widget class="QPushButton" name="login_btn">
-   <property name="geometry">
-    <rect>
-     <x>90</x>
-     <y>230</y>
-     <width>171</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">QPushButton{
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="label">
+     <property name="styleSheet">
+      <string notr="true">font: 25 50pt &quot;Bahnschrift Light&quot;;</string>
+     </property>
+     <property name="text">
+      <string>  Welcome</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QPushButton" name="login_btn">
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
 	font: 25 18pt &quot;Bahnschrift Light&quot;;
 	border-style: solid;
 	border-top-color: qlineargradient(spread:pad, x1:0.5, y1:1, x2:0.5, y2:0, stop:0 rgb(215, 215, 215), stop:1 rgb(222, 222, 222));
@@ -75,27 +79,13 @@ QPushButton:disabled{
 	padding: 2px;
 	background-color: rgb(142,142,142);
 }</string>
-   </property>
-   <property name="text">
-    <string>login</string>
-   </property>
-  </widget>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>40</x>
-     <y>110</y>
-     <width>281</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">font: 25 50pt &quot;Bahnschrift Light&quot;;</string>
-   </property>
-   <property name="text">
-    <string>Welcome</string>
-   </property>
-  </widget>
+     </property>
+     <property name="text">
+      <string>login</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
  </widget>
  <resources/>
  <connections/>
